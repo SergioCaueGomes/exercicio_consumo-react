@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 
-import ProdutoItem from '../produtoItem/ProdutoItem'
 import ListaProdutos from '../listaProdutos/ListaProdutos'
 
 export default function ProdutoItem(props) {

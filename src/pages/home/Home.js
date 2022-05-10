@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ListaProdutos from "../../components/listaProdutos/ListaProdutos";
 
-export default function Home () {
+export default function Home() {
 
     const [produtos, setProdutos] = useState([])
     
@@ -20,6 +20,6 @@ export default function Home () {
             <h1>Home</h1>
             <ListaProdutos produtos={produtos} />
         </div>
-    );
+    )
   }
   

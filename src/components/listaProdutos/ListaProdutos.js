@@ -7,7 +7,7 @@ function ListaProdutos(props) {
 
     return (
         <>
-            <h1>{props.titulo}</h1>
+            <h1>Lista Produtos</h1>
             {
                 produtos.map(item => {
                     return (
