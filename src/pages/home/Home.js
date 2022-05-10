@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ListaProdutos from "../../components/listaProdutos/ListaProdutos";
 
-function Home () {
+export default function Home () {
 
     const [produtos, setProdutos] = useState([])
     
@@ -23,4 +23,3 @@ function Home () {
     );
   }
   
-  export default Home;
